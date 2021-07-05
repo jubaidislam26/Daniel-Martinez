@@ -211,6 +211,12 @@ a, a:hover{
  	display: flex;
  	flex-basis: 50%;
  }
+.contact-left{
+ 	width: 100%;
+ 	background: url(../image/contact.jpg);
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ }
  .contact-right{
  	width: 100%;
 	background: #315b5e;
