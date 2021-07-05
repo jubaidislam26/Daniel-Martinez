@@ -1,0 +1,278 @@
+body, *{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+/*copyright <i class="fa fa-copyright" aria-hidden="true"></i>*/
+/*play button<i class="fa fa-play" aria-hidden="true"></i>*/
+
+/*font-family: 'Source Sans Pro', sans-serif;*/
+h1,h2,h3,h4,h5,h6,a,input,span,button,p{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*header-bannner part start*/
+.banner{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-basis: 50%;
+}
+.banner-left{
+	width: 100%;
+	background: #315b5e;
+	padding: 30px;
+}
+.banner-right{
+	display: flex;
+	justify-content: flex-end;
+    align-items: center;
+	width: 100%;
+	background: url(../image/banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.logo{
+	color: #f4f472;
+	font-size: 24px;
+}
+.logo h4{
+	font-size: 22px;
+	font-weight: 400;
+}
+.header-text ul li{
+	list-style: none;
+	display: inline-block;
+	margin-top: 18px;
+}
+.header-text ul li a{
+	color: white;
+	padding-right: 20px ;
+}
+.header-text ul li a:hover{
+	transition: 0.3s;
+	color: #f4f472;
+}
+.banner-text{
+	margin: 90px;
+    padding: 90px;
+}
+.banner-text h2{
+	padding-left: 5px;
+	color: yellow;
+	font-size: 40px;
+	font-weight: 400;
+}
+.banner-text h1{
+	color: white;
+	font-size: 86px;
+	font-weight: 700;
+	line-height: 86px;
+}
+.banner-text p{
+	padding-left: 5px;
+	font-size: 14px;
+	font-weight: 300;
+	color: white;
+}
+.banner-right ul{
+	background: yellow;
+	padding: 10px;
+	
+}
+.banner-right ul li{
+	list-style: none;
+	padding: 5px 0px;
+	
+}
+.banner-right ul li a i{
+	color: black;
+	transition: 0.2s;
+}
+.banner-right ul li a i:hover{
+	transition: 0.1s;
+	transform: scale(1.5);
+}
+/*header-bannner part ends*/
+/*mid banner section starts*/
+.mid-banner{
+	background: #e6e8e8;
+	padding: 60px 120px;
+	text-align: center;
+}
+.bn-text h1{
+	font-size: 40px;
+	color:  #315b5e;
+}
+.p1{
+	line-height: 22px;
+	font-size: 13px;
+	padding: 15px 0px;
+}
+.p2{
+	line-height: 22px;
+	font-size: 13px;
+	padding: 10px 0px;
+}
+.bn-text button{
+	color:#315b5e ;
+	cursor: pointer;
+	margin: 30px;
+    background: #f4f472;
+    border: none;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+.bn-text button:hover{
+	transition: 0.3s;
+	transform: scale(1.1);
+	color: white;
+	background: #315b5e;
+}
+/*mid banner section ends*/
+/*Showreel section starts*/
+.show{
+	padding: 80px;
+	text-align: center;
+}
+.show h1{
+	color: #315b5e;
+	font-size: 70px;
+}
+/*Showreel section ends*/
+/*play section starts*/
+.play{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url(../image/banner2.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	width: 100%;
+	height: 600px;
+}
+.btn-2{
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	display: flex;
+	align-items: center;
+}
+.play a i{
+	color: white;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 100%;
+    text-align: center;
+    margin: 0px 10px;
+    font-size: 15px;
+    transition: 0.2s;
+}
+.play a i:hover{
+	transition: 0.3s;
+	transform: scale(1.1);
+	color: white;
+	background: red;
+}
+.play h5{
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+	transition: 0.3s;
+}
+.play h5:hover{
+	transform: scale(1.1);
+	transition: 0.3s;
+	border-bottom: 1px solid white;
+	color: white;
+}
+/*play section ends*/
+/*gallery section starts*/
+.gallery-section{
+	padding-bottom: 70px;
+}
+.item-1{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 15px;
+}
+.item-1 img{
+	margin: 0px 8px;
+}
+ /*gallery section ends*/
+ /*contact section starts*/
+ .contact{
+ 	width: 100%;
+ 	height: 100vh;
+ 	display: flex;
+ 	flex-basis: 50%;
+ }
+ .contact-right{
+ 	width: 100%;
+	background: #315b5e;
+	padding-top: 50px;
+	padding-left: 200px;
+ }
+ .contact-right h1{
+ 	color: #f4f472;
+ 	padding: 20px 0px;
+ 	font-size: 70px;
+ }
+ .contact-right h2{
+ 	color: white;
+ 	font-weight: 400;
+ 	padding-bottom: 20px;
+ }
+ .c-item{
+ 	padding: 10px 0px;
+ }
+.c-item ul li{
+	font-size: 13px;
+	padding: 5px 0px;
+ 	list-style: none;
+ 	transition: 0.2s;
+ }
+ /*.c-item ul li:hover{
+ 	color: white;
+ 	transition: 0.2s;
+ 	transform: scale(1.001);
+ 	font-weight: 700;
+ }*/
+ .c-item ul li a{
+ 	color: white;
+ }
+ .c-item ul li a span{
+ 	font-weight: 700;
+ }
+ .social ul li{
+ 	list-style: none;
+	display: inline-block;
+	margin-top: 18px;
+	transition: 0.3s;
+ }
+ .social ul li:hover{
+ 	transition: 0.3s;
+	transform: scale(1.5);
+ }
+ .social ul li a i{
+ 	color: white;
+	padding-right: 20px ;
+ }
+ /*contact section ends*/
+ /*footer section starts*/
+ .footer{
+ 	text-align: center;
+ 	width: 100%;
+ 	padding: 50px;
+ }
+ .footer p{
+ 	font-size: 12px;
+ }
+ .footer i{
+ 	font-size: 12px;
+ }
+ /*footer section ends*/
